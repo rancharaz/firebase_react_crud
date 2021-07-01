@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+
+}
+ 
+
 .App {
   text-align: center;
 }
@@ -6,7 +14,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +46,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form__bg {
+  background-color: #ccc;
+  max-width: 500rem;
+  padding: 1rem;
+  margin: 10px;
+  border-radius: 1rem;
+  box-shadow: 3px 4px rgb(0 0 0 / 30%);
+  text-align: center;
+  
 }
